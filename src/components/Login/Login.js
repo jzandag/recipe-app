@@ -42,6 +42,42 @@ class Login extends Component {
                     </button>
                 </div>
             </div>
+            <div>
+        <h2 class="text-center"> Utilities! </h2>
+        <div class="mb-3">
+          <label for="email" class="form-label">
+            Email address
+          </label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">
+            Password
+          </label>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            placeholder="Password"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="cpassword" class="form-label">
+            Confirm Password
+          </label>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            placeholder="Confirm Password"
+          />
+        </div>
+    </div>  
         </div>
         )
     }

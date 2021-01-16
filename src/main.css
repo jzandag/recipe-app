@@ -8328,6 +8328,22 @@ fieldset:disabled .btn {
   visibility: hidden !important;
 }
 
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mb-1 {
+  margin-bottom: 1rem !important;
+}
+
+.mb-2 {
+  margin-bottom: 2rem !important;
+}
+
+.mb-3 {
+  margin-bottom: 3rem !important;
+}
+
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
