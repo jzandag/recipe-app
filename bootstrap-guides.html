@@ -7,7 +7,13 @@
     <link rel="stylesheet" href="./src/main.css">
     <style>
         [class*="con"]{
-            background-color: aqua;
+            border: 1px solid white;
+        }
+        [class*="col"] {
+            padding: 1rem;
+            background-color:  rgb(15, 230, 238);
+            border: 1px solid white;
+            text-align: center;
         }
         h1 {
             margin: 20px 10px;
@@ -26,5 +32,67 @@
     <div class="container-lg bg-danger">container-lg => </div>
     <div class="container-xl bg-light">container-xl => </div>
     <div class="container-xxl bg-success">container-xxl => </div>
+
+    <h1>Rows</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">1</div>
+            <div class="col-sm">2</div>
+            <div class="col-sm">3</div>
+        </div>
+        <div class="row">
+            <div class="col-sm">1</div>
+            <div class="col-sm">2</div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">Main Content</div>
+            <div class="col-md-4">SideBar</div>
+        </div>
+    </div>
+
+    <h1>Gutter</h1>
+    <div class="container">
+        <div class="row gx-10">
+            <div class="col">
+                <div class="p-3 border">Custom padding</div>
+            </div>
+            <div class="col">
+                <div class="p-3 border">Custom padding</div>
+            </div>
+        </div>
+    </div>
+
+    <h1>Buttons</h1>
+    <div class="container">
+        <h3>Common buttons</h3>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+
+        <button type="button" class="btn btn-link">Link</button>
+
+        <h3>Outline buttons</h3>
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+        <button type="button" class="btn btn-outline-success">Success</button>
+        <button type="button" class="btn btn-outline-danger">Danger</button>
+        <button type="button" class="btn btn-outline-warning">Warning</button>
+        <button type="button" class="btn btn-outline-info">Info</button>
+        <button type="button" class="btn btn-outline-light">Light</button>
+        <button type="button" class="btn btn-outline-dark">Dark</button>
+
+        <h3>Button sizing</h3>
+        <button type="button" class="btn btn-primary btn-lg">Primary lg</button>
+        <button type="button" class="btn btn-primary btn-md">Primary md</button>
+        <button type="button" class="btn btn-primary btn-sm">Primary sm</button>
+
+        <h3>Disabled button</h3>
+        <button type="button" class="btn btn-primary" disabled>Primary lg</button>
+    </div>
 </body>
 </html>
