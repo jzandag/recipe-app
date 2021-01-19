@@ -255,7 +255,7 @@
 
     <div class="container">
 
-        <table class="table table-primary">
+        <table class="table table-bordered border-primary">
             <thead>
                 <tr>
                     <th scope="col">#</th>
@@ -276,7 +276,102 @@
                 </tr>
             </tbody>
         </table>
+        <!-- table-primary -  for color for entire, row level or cell level
+            table-striped - striped color for tables
+            table-dark - dark theme
+            table-hover - for hovering of tables
+            table-bordered - to create borders for tables
+            table-borderless - to remove all border in tables
+            table-sm - to change sizes of table
+        -->
+
+        <h2>Table responsive</h2>
+        <!-- Table responsive -->
+        <div class="table-responsive">
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">heading</th>
+                        <th scope="col">heading</th>
+                        <th scope="col">heading</th>
+                        <th scope="col">heading</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>cell</td>
+                        <td>cell</td>
+                        <td>cell</td>
+                        <td>cell</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>cell</td>
+                        <td>cell</td>
+                        <td>cell</td>
+                        <td>cell</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 
+    <h1>Alerts and Toast</h1>
+    <div class="container">
+
+        <div class="alert alert-primary" role="alert">
+            A simple primary alert—check it out!
+        </div>
+        <div class="alert alert-secondary" role="alert">
+            A simple secondary alert—check it out!
+        </div>
+        <div class="alert alert-success" role="alert">
+            A simple success alert—check it out!
+        </div>
+        <div class="alert alert-danger" role="alert">
+            A simple danger alert—check it out!
+        </div>
+        <div class="alert alert-warning" role="alert">
+            A simple warning alert—check it out!
+        </div>
+        <div class="alert alert-info" role="alert">
+            A simple info alert—check it out!
+        </div>
+        <div class="alert alert-light" role="alert">
+            A simple light alert—check it out!
+        </div>
+        <div class="alert alert-dark" role="alert">
+            A simple dark alert—check it out!
+        </div>
+
+        <h3>Toast</h3>
+        <div class="toast" role="alert" data-bs-delay="15000" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <img src="..." class="rounded me-2" alt="...">
+                <strong class="me-auto">Bootstrap</strong>
+                <small>11 mins ago</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Hello, world! This is a toast message.
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script scr="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script>
+        let toastList = [].slice.call(document.querySelectorAll('.toast'))
+        let toast = toastList.map(t => {
+            return new bootstrap.Toast(t, {
+                animation: true,
+                autohide: false
+            })
+        })
+        //toast[0].show()
+    </script>
 </body>
 </html>
