@@ -2,7 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[![Known Vulnerabilities](https://snyk.io/test/github/jzandag/recipe-app/badge.svg)](https://snyk.io/test/github/jzandag/recipe-app)
+## Issues
+[![Issues](https://img.shields.io/github/issues-raw/tterb/PlayMusic.svg?maxAge=25000)](https://github.com/tterb/recipe-app/issues)  
+
+## Pull Requests
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/cdnjs/cdnjs.svg?style=flat)]()
+[![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)  
 
 ## Available Scripts
 
