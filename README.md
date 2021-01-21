@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[![Known Vulnerabilities](https://snyk.io/test/npm/protractor-helper/4.1.12/badge.svg)](https://snyk.io/test/npm/protractor-helper/4.1.12)
+
 ## Available Scripts
 
 In the project directory, you can run:
