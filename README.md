@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[![Known Vulnerabilities](https://snyk.io/test/npm/protractor-helper/4.1.12/badge.svg)](https://snyk.io/test/npm/protractor-helper/4.1.12)
+[![Known Vulnerabilities](https://snyk.io/test/github/jzandag/recipe-app/badge.svg)](https://snyk.io/test/github/jzandag/recipe-app)
 
 ## Available Scripts
 
